@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@applient/components": ["libs/ui/components/src/lib"],
+      "@applient/utils": ["libs/utils/src"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "ESNext"
+    }
+  }
+}
