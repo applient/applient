@@ -1,15 +1,14 @@
-import { withThemeByDataAttribute } from '@storybook/addon-themes';
+import { withThemeByClassName } from '@storybook/addon-themes';
 
 import '../../tailwind-preset/src/global.css';
 
 export const decorators = [
-  withThemeByDataAttribute({
+  withThemeByClassName({
     themes: {
-      light: 'light',
+      light: '',
       dark: 'dark',
     },
     defaultTheme: 'light',
-    attributeName: 'class',
   }),
 ];
 
