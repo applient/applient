@@ -39,6 +39,6 @@ const meta: Meta<typeof AlertDialog> = {
 export default meta;
 type Story = StoryObj<typeof AlertDialog>;
 
-export const Primary = {
+export const Primary: Story = {
   args: {},
 };

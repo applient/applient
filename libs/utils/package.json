@@ -2,7 +2,9 @@
   "name": "@applient/utils",
   "version": "0.0.1",
   "dependencies": {
-    "@swc/helpers": "~0.5.2"
+    "@swc/helpers": "~0.5.2",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0"
   },
   "type": "commonjs",
   "main": "./src/index.js",

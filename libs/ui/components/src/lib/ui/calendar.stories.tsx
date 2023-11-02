@@ -8,6 +8,6 @@ const meta: Meta<typeof Calendar> = {
 export default meta;
 type Story = StoryObj<typeof Calendar>;
 
-export const Primary = {
+export const Primary: Story = {
   args: {},
 };

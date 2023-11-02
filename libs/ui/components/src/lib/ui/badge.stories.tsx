@@ -13,7 +13,7 @@ const meta: Meta<typeof Badge> = {
 export default meta;
 type Story = StoryObj<typeof Badge>;
 
-export const Primary = {
+export const Primary: Story = {
   args: {
     children: 'Badge',
   },

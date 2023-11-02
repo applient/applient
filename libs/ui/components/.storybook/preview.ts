@@ -1,6 +1,6 @@
 import { withThemeByClassName } from '@storybook/addon-themes';
 
-import '../../tailwind-preset/src/global.css';
+import '@applient/tailwind-preset';
 
 export const decorators = [
   withThemeByClassName({

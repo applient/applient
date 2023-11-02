@@ -16,7 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@applient/components": ["libs/ui/components/src/index.ts"],
-      "@applient/tailwind-preset": ["libs/ui/tailwind-preset/src/index.js"],
+      "@applient/tailwind-preset": ["libs/ui/tailwind-preset/src/global.css"],
       "@applient/utils": ["libs/utils/src/index.ts"]
     }
   },

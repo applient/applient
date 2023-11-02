@@ -42,7 +42,7 @@ const meta: Meta<typeof Accordion> = {
 export default meta;
 type Story = StoryObj<typeof Accordion>;
 
-export const Primary = {
+export const Primary: Story = {
   args: {
     disabled: false,
     type: 'single',
