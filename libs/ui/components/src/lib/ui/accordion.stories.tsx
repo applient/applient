@@ -13,10 +13,6 @@ const meta: Meta<typeof Accordion> = {
     type: {
       options: ['single', 'multiple'],
       control: { type: 'select' },
-      defaultValue: 'single',
-    },
-    disabled: {
-      type: 'boolean',
     },
   },
   render: (args) => (
@@ -47,5 +43,8 @@ export default meta;
 type Story = StoryObj<typeof Accordion>;
 
 export const Primary = {
-  args: {},
+  args: {
+    disabled: false,
+    type: 'single',
+  },
 };
