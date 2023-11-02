@@ -16,7 +16,8 @@
       ]
     },
     "test": {
-      "cache": true
+      "cache": true,
+      "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"]
     },
     "e2e": {
       "cache": true
@@ -39,7 +40,12 @@
       "!{projectRoot}/eslint.config.js",
       "!{projectRoot}/**/*.stories.@(js|jsx|ts|tsx|mdx)",
       "!{projectRoot}/.storybook/**/*",
-      "!{projectRoot}/tsconfig.storybook.json"
+      "!{projectRoot}/tsconfig.storybook.json",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/src/test-setup.[jt]s",
+      "!{projectRoot}/test-setup.[jt]s"
     ],
     "sharedGlobals": []
   },
@@ -51,6 +57,12 @@
       },
       "library": {
         "unitTestRunner": "none"
+      }
+    },
+    "@nx/next": {
+      "application": {
+        "style": "styled-jsx",
+        "linter": "eslint"
       }
     }
   },
