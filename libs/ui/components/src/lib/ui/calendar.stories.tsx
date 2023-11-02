@@ -3,7 +3,7 @@ import { Calendar } from './calendar';
 
 const meta: Meta<typeof Calendar> = {
   component: Calendar,
-  title: 'Calendar',
+  title: 'Primitives / Calendar',
 };
 export default meta;
 type Story = StoryObj<typeof Calendar>;

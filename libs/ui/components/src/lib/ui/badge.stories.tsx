@@ -3,7 +3,7 @@ import { Badge } from './badge';
 
 const meta: Meta<typeof Badge> = {
   component: Badge,
-  title: 'Badge',
+  title: 'Primitives / Badge',
   argTypes: {
     children: {
       name: 'Badge text',
